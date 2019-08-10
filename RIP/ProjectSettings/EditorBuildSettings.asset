@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ScalingTask.unity
     guid: 90603cfb1401023478315c9dbbd2d781
+  - enabled: 1
+    path: Assets/Scenes/RotationTask.unity
+    guid: a51ee2ea7671af54baeb881812dcacb6
   m_configObjects: {}
