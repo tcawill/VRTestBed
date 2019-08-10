@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SteeringTask.unity
     guid: f7cb6de480270cd439442bc7ce3af505
+  - enabled: 1
+    path: Assets/Scenes/DragAndDropTask.unity
+    guid: bb779edf94927fc45b63c6f655579dcf
+  - enabled: 1
+    path: Assets/Scenes/ScalingTask.unity
+    guid: 90603cfb1401023478315c9dbbd2d781
   m_configObjects: {}

@@ -15,8 +15,8 @@ public class PointingTask : MonoBehaviour
     private int amplitudeItr = 0;
     private int numSpheres = 7;
     private float length, width, height;
-    private float[] sphereSizes = new float[] { 0.5f, 0.7f, 0.1f };
-    private float[] amplitudeList = new float[] { 0.5f, 1f, 1.5f };
+    private float[] sphereSizes = new float[] { 0.5f, 0.7f};
+    private float[] amplitudeList = new float[] { 0.5f, 1f};
     // Start is called before the first frame update
     void Start()
     {
@@ -168,7 +168,7 @@ public class PointingTask : MonoBehaviour
 
     void SwitchScenes()
     {
-        SceneManager.LoadScene("SteeringTask"); //randomize later to counterbalance scenes
+        SceneManager.LoadScene("RotationTask"); //randomize later to counterbalance scenes
     }
 
     List<GameObject> Shuffle(List<GameObject> inputList) // this here shuffles the ordering for the spheres to be highlighted for each trial.

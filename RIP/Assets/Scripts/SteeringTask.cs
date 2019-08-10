@@ -88,18 +88,10 @@ public class SteeringTask : MonoBehaviour
             if ((isDraggingRight || isDraggingLeft) && (amplitudeItr < amplitudeList.Length && widthItr < widthList.Length))
             {
                 Reset();
-                //if (OVRInput.GetUp(OVRInput.Button.One))
-                //{
-                //    Reset();
-                //}
             }
             else
             {
                 SwitchScenes();
-                //if (OVRInput.GetUp(OVRInput.Button.One))
-                //{
-                //    SwitchScenes();
-                //}
             }
                 isDraggingLeft = false;
                 isDraggingRight = false;
@@ -114,18 +106,11 @@ public class SteeringTask : MonoBehaviour
                 if ((isDraggingRight || isDraggingLeft) && (amplitudeItr < amplitudeList.Length && widthItr < widthList.Length))
                 {
                     Reset();
-                    //if (OVRInput.GetUp(OVRInput.Button.Three))
-                    //{
-                    //    Reset();
-                    //}
+                    
                 }
                 else
                 {
                     SwitchScenes();
-                    //if (OVRInput.GetUp(OVRInput.Button.Three))
-                    //{
-                    //    SwitchScenes();
-                    //}
                 }
                 isDraggingLeft = false;
                 isDraggingRight = false;
@@ -193,7 +178,7 @@ public class SteeringTask : MonoBehaviour
 
     void SwitchScenes()
     {
-        SceneManager.LoadScene("PointingTask");
+        SceneManager.LoadScene("ScalingTask");
     }
 }
 
