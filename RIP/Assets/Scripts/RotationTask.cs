@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class RotationTask : MonoBehaviour
@@ -17,5 +18,10 @@ public class RotationTask : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void SwitchScenes()
+    {
+        SceneManager.LoadScene("DragAndDropTask");
     }
 }
