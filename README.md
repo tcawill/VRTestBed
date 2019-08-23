@@ -35,3 +35,7 @@ Things to Know:
 2. Acceleration & Jerk, although produce data frames come with a warning. I think this affects the ggplot
 3. In order to use R, I recommend you download R Studio Desktop here: https://www.rstudio.com/products/rstudio/download/
 4. I added the acceleration and jerk data frames & ggplots, but they are commented out for right now, due to the warning. I'm not sure I will be able to fix before I leave.
+5. Within the R Studio Terminal run before running the program for the first time (and probably any time after restarting -- not sure): 
+        install.packages("dplyr")
+        install.packages("ggplot2")
+        
