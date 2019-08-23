@@ -24,3 +24,14 @@ ROTATION: NOT STARTED
 When you download all the files, can you simulate the experiment by starting with pointing task and then send me an email that it works as intended. Meaning you can do the experiment all the way to rotation? Some scenes require a double click for some reason. So definitely do that if there's a lag between scenes. 
 
 Ok I think that is all!!
+
+___________________________________________________________________________________________________
+
+DATA ANALYZER: 
+
+Things to Know: 
+
+1. The program is in R
+2. Acceleration & Jerk, although produce data frames come with a warning. I think this affects the ggplot
+3. In order to use R, I recommend you download R Studio Desktop here: https://www.rstudio.com/products/rstudio/download/
+4. I added the acceleration and jerk data frames & ggplots, but they are commented out for right now, due to the warning. I'm not sure I will be able to fix before I leave.
