@@ -37,5 +37,6 @@ Things to Know:
 4. I added the acceleration and jerk data frames & ggplots, but they are commented out for right now, due to the warning. I'm not sure I will be able to fix before I leave.
 5. Within the R Studio Terminal run before running the program for the first time (and probably any time after restarting -- not sure): 
         install.packages("dplyr")
-        install.packages("ggplot2")
+        install.packages("ggplot2"
+6. You may also need to install R for windows. https://cran.r-project.org/bin/windows/base/ 
         
